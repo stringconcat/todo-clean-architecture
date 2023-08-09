@@ -6,8 +6,8 @@ import org.springframework.context.annotation.ComponentScan
 
 @SpringBootApplication
 @ComponentScan(value = ["com.stringconcat.todo.clean.architecture"])
-class PeopleApplication
+class ToDoApplication
 
 fun main(args: Array<String>) {
-	runApplication<PeopleApplication>(*args)
+	runApplication<ToDoApplication>(*args)
 }
